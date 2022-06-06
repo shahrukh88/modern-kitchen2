@@ -1,0 +1,80 @@
+.container-g2 {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin-top: 900px;
+  height: auto;
+  
+}
+
+.pl-g23{
+  width: 230px;
+  margin-top: 300px;
+  margin-right: 50px;
+  } 
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left-g2 {
+  position: absolute;
+  top: 160px;
+  left: 120px;
+}
+
+
+.top-right-g2 {
+  position: absolute;
+  top: 5px;
+  right: 170px;
+  margin-bottom: 100px;
+}
+.pl-g12{
+  width: 450px;
+}
+
+.top-right-g12 {
+  position: absolute;
+  top: 60px;
+  width: 480px;
+  padding: 1%;
+  font-family: 'Poppins';
+  text-align: left;
+  opacity: 0.8;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(184, 182, 183, 0.8) ;;
+
+}
+
+.pl-g2{
+  width: 500px;
+  margin-top: 45px;
+ margin-left: 120px;
+}
+
+.rope-g2{
+  background-color: rgba(184, 182, 183, 0.8);
+  color: rgba(255, 255, 255, 1);
+  width: 240px;
+padding: 2%;
+  font-size: 22px;
+  margin-bottom: 100px;
+  
+  
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered-g2 {
+  position: absolute;
+  top: 400px;
+  left: 560px;
+  transform: translate(-50%, -50%);
+}

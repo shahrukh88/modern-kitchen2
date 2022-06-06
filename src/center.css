@@ -1,0 +1,18 @@
+.separator{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .separator h2{
+    padding: 0 1rem; /* creates the space */
+    font-family: 'Poppins';
+    color: rgba(242, 146, 29, 1);
+
+  }
+  
+  .separator .line{
+    flex: 1;
+    height: 3px;
+    background-color: #000;
+  }

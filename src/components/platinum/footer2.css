@@ -1,0 +1,57 @@
+.footer{
+    height: 120px;
+    width: 100%;
+    margin-top: 2%;
+    
+    background-color: rgba(51, 44, 46, 1);
+    font-family: 'Poppins';
+}
+  .column4 {
+    float: left;
+    width: 50%;
+    font-family: 'Poppins';
+    padding: 10px;
+    margin-top: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }  
+
+  .h12bebas{
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 45%;
+  }
+  
+  .h121bebas{
+      font-family: 'Poppins';
+    color: white;
+    font-size: 150%;
+    margin-left: 40%;      
+  }
+  .vl12 {
+    border-top: 2px solid rgb(220, 223, 220);
+   width: 31%;
+   margin-left: 40%;
+   font-family: 'Poppins';
+  }
+  
+  .copy{
+    color: white;
+    font-family: 'Poppins';
+  
+    margin-left: 40%; 
+    margin-top: 20px;     
+  }
+  .conditions{
+      margin-top: 10px;
+  }
+  .logo{
+      height: 40px;
+      margin-left: 450px;
+  }

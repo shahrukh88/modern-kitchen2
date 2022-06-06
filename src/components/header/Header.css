@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .container {
+    position: relative;
+    font-size: 100%;
+    height: 500%;
+    width: 100%;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  .topleft {
+    position: absolute;
+    top: 8px;
+    margin-left: 50%;
+    font-size: 18px;
+  }
+  
+  .img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+  .h1bebas{
+    font-family: 'Poppins';
+    color: white;
+  }
+  
+  .h2bebas{
+    font-family: 'Poppins';
+    color: white;
+    font-size: 200%;
+      
+  }
+  .vl {
+    border-top: 2px solid rgb(220, 223, 220);
+   width: 20%;
+   margin-left: 40%;
+    
+  }
+  .center {
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    background-color: #fcb603;
+    opacity: 0.6;
+    font-family: 'Poppins';
+    
+  }
+  .center2 {
+    position: absolute;
+    top: 56%;
+    width: 45%;
+    margin-left: 28%;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+    background-color:#4e5157;
+    font-family: 'Poppins';
+    opacity: 0.6;
+  
+    
+  }
+  .center3 {
+    position: absolute;
+    top: 77%;
+    width: 15%;
+    margin-left: 43%;
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Poppins';
+    color: white;
+    padding-top: 0.2%;
+    padding-bottom: 0.3%;
+   
+    background-color: #fcb603;
+   
+    opacity: 0.6;
+  
+    
+  }
+  
+  
+  .collection{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 20px;
+    font-size: 10px;
+    color: #2b663a;
+    font-family: 'Poppins';
+  }
+  
+  .vl2 {
+    border-top: 2px solid black;
+   width: 20%;
+   margin-left: 40%;
+   font-family: 'Poppins';
+  }
+  
+  .column2 {
+    float: left;
+    width: 50%;
+    height: 600px;
+    margin-top: 2%;
+    font-family: 'Poppins';
+    background-color: rgba(51, 44, 46, 1);
+    padding: 10px;
+   
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;;
+  }
+  
+  .about{
+    font-size: 30px;
+    margin-top: 18%;
+     color: white;
+     font-family: 'Poppins';
+  }
+  
+  .p2{
+    font-size: 10px;
+    font-family: 'Poppins';
+    margin-top: 1%;
+    color: white;
+    
+  
+  }
+  .readmore{
+    background-color: rgba(242, 146, 29, 0.9);
+    width: 100px;
+    font-family: 'Poppins';
+  color: white;
+  margin-top: 2%;
+  padding: 1%;
+  text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .column3 {
+    float: left;
+    width: 50%;
+    padding: 18px;
+    font-family: 'Poppins';
+    height: auto;
+     /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .img2 { 
+    width: 70%;
+    margin-left: 45%;
+    height: auto;
+    opacity: 0.9;
+    font-family: 'Poppins';
+    padding-bottom: 5%;
+  }
+  .img12 { 
+    width: 80%;
+    margin-left: 40%;
+    font-family: 'Poppins';
+    height: 450px;
+    opacity: 0.9;
+    padding-bottom: 2%;
+  }
+  .img3 { 
+    
+    width: 68%;
+    margin-left: 24%;
+    height: auto;
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+  .img13 { 
+    width: 80%;
+    margin-left: 18%;
+    height: 450px;
+    opacity: 0.9;
+    padding-bottom: 5%;
+  }
+  
+  @media screen and (max-width: 750px){
+    .h1bebas{
+      font-size: 4px;
+    }
+    .h2bebas{
+      font-size: 1%;
+        
+    } 
+    .vl {
+      border-top: 1px solid rgb(220, 223, 220);
+     width: 20%;
+     margin-left: 40%;
+      
+    }
+    
+  .center {
+    top: 30%;
+    width: 40%;
+    font-size: 60%;
+   }
+   .center2 {
+    top: 50%;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 10%;
+  
+  }
+  
+  .center3 {
+    top: 77%;
+    width: 18%;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 7%;
+    color: white;
+    padding-top: 0.2%;
+    padding-bottom: 0.3%;
+   
+  
+  }
+  
+  }

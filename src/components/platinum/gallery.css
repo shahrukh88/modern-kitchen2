@@ -1,0 +1,116 @@
+.rope{
+    background-color: rgba(217, 128, 70, 0.7);
+    color: rgba(255, 255, 255, 1);
+    width: 220px;
+  padding: 2%;
+    font-size: 22px;
+    margin-left: 8%;
+  }
+  
+.marg{
+  margin-top: 6600px;
+}
+.container-g {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 80px;
+    height: auto;
+    
+  }
+  
+  .bottom-left-g {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left-g {
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    margin-left: 52px;
+  }
+  .top-left2-g {
+    position: absolute;
+    top: 50px;
+    left: 27px;
+    width: 460px;
+    padding: 1%;
+    font-family: 'Poppins';
+    text-align: left;
+    opacity: 0.8;
+
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(122, 45, 0, 0.6);
+  }
+  
+  .top-left3-g {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    width: 460px;
+    padding: 1%;
+    font-family: 'Poppins';
+    opacity: 0.8;
+
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(122, 45, 0, 0.6);
+  }
+  
+  .pl1{
+    width: 374px;
+    margin-top: 85px;
+    margin-left: 16%;
+  }
+  .top-right-g {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    margin-right: 130px;
+  }
+  .pl2{
+    width: 500px;
+}
+
+  .bottom-right-g {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    margin-top: 2000px;
+  }
+
+  .rope2{
+    background-color: rgba(217, 128, 70, 0.7);
+    color: rgba(255, 255, 255, 1);
+    width: 220px;
+  padding: 2%;
+    font-size: 22px;
+    margin-right: 450px;
+  }
+
+
+  .centered-g {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pl3{
+    width: 230px;
+    margin-top: 1050px;
+    } 
+  .ul1 {
+    
+    margin-left: 6%;
+  }
+  .spec{
+      text-decoration: underline;
+      font-family: 'Poppins';
+  
+  }
+  .spec2{
+      margin-top: 5px;
+    margin-left: 25px;
+  }
